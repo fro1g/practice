@@ -1,0 +1,223 @@
+.bg {
+  height: 70px;
+  width: 87.9px;
+  position: relative;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-whitesmoke-200);
+  box-sizing: border-box;
+  display: none;
+}
+.b {
+  font-family: var(--font-ubuntu);
+}
+.span {
+  text-decoration: line-through;
+}
+.p,
+.p1 {
+  margin: 0;
+}
+.p1 {
+  color: var(--color-slategray);
+}
+.div {
+  width: 70px;
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.bg1,
+.weekdayPrice {
+  background-color: var(--color-white);
+  border: 1px solid var(--color-whitesmoke-200);
+}
+.weekdayPrice {
+  flex: 0.7952;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mini) var(--padding-6xs) var(--padding-2xs)
+    var(--padding-4xs);
+  flex-shrink: 0;
+  z-index: 4;
+}
+.bg1 {
+  height: 70px;
+  width: 87.9px;
+  position: relative;
+  box-sizing: border-box;
+  display: none;
+}
+.b1 {
+  font-family: var(--font-ubuntu);
+}
+.span1 {
+  text-decoration: line-through;
+}
+.p2,
+.p3 {
+  margin: 0;
+}
+.p3 {
+  color: var(--color-slategray);
+}
+.div2 {
+  width: 70px;
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.bg2,
+.div1 {
+  background-color: var(--color-white);
+  border: 1px solid var(--color-whitesmoke-200);
+  box-sizing: border-box;
+}
+.div1 {
+  width: 100%;
+  margin: 0 !important;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  right: -87px;
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mini) var(--padding-6xs) var(--padding-2xs)
+    var(--padding-4xs);
+  z-index: 2;
+}
+.bg2 {
+  height: 70px;
+  width: 87.9px;
+  position: relative;
+  display: none;
+}
+.b2 {
+  font-family: var(--font-ubuntu);
+}
+.span2 {
+  text-decoration: line-through;
+}
+.p4,
+.p5 {
+  margin: 0;
+}
+.p5 {
+  color: var(--color-slategray);
+}
+.div3,
+.div4 {
+  flex-shrink: 0;
+}
+.div4 {
+  width: 70px;
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  z-index: 1;
+}
+.div3 {
+  flex: 1;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-whitesmoke-200);
+  padding: var(--padding-mini) var(--padding-6xs) var(--padding-2xs)
+    var(--padding-4xs);
+  z-index: 3;
+}
+.div3,
+.parent,
+.weekdayPriceParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.parent {
+  flex: 1;
+  position: relative;
+  margin-left: -0.8px;
+}
+.weekdayPriceParent {
+  width: 175px;
+  flex-shrink: 0;
+}
+.bg3 {
+  height: 70px;
+  width: 88.8px;
+  position: relative;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-whitesmoke-200);
+  box-sizing: border-box;
+  display: none;
+}
+.b3 {
+  font-family: var(--font-ubuntu);
+}
+.span3 {
+  text-decoration: line-through;
+}
+.p6,
+.p7 {
+  margin: 0;
+}
+.p7 {
+  color: var(--color-slategray);
+}
+.div6 {
+  width: 70px;
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.div5,
+.priceColumn,
+.priceRow {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.div5 {
+  width: 88.8px;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-whitesmoke-200);
+  box-sizing: border-box;
+  justify-content: flex-start;
+  padding: var(--padding-mini) var(--padding-5xs) var(--padding-2xs);
+  flex-shrink: 0;
+  z-index: 1;
+}
+.priceColumn,
+.priceRow {
+  max-width: 100%;
+}
+.priceRow {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.priceColumn {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 var(--padding-9xs);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+  font-family: var(--font-ubuntu);
+}
+@media screen and (max-width: 450px) {
+  .priceRow {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

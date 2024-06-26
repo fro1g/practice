@@ -1,0 +1,183 @@
+.bg,
+.icon {
+  position: relative;
+}
+.bg {
+  height: 72px;
+  width: 1380px;
+  background-color: var(--color-dimgray);
+  display: none;
+  max-width: 100%;
+}
+.icon {
+  height: 40px;
+  width: 40px;
+  min-height: 40px;
+  z-index: 1;
+}
+.p,
+.p1 {
+  margin: 0;
+}
+.p1 {
+  color: var(--color-white);
+}
+.b {
+  position: relative;
+  line-height: 20px;
+  z-index: 1;
+}
+.subscriptionInfo {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.bg1,
+.eMail {
+  position: relative;
+}
+.bg1 {
+  align-self: stretch;
+  width: 475px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  background-color: var(--color-white);
+  display: none;
+  max-width: 100%;
+}
+.eMail {
+  display: inline-block;
+  min-width: 98px;
+  z-index: 1;
+}
+.emailContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) 0 0;
+}
+.b1,
+.bg2 {
+  position: relative;
+}
+.bg2 {
+  height: 40px;
+  width: 160px;
+  background-color: var(--color-forestgreen);
+  display: none;
+}
+.b1 {
+  flex: 1;
+  text-transform: uppercase;
+  z-index: 1;
+}
+.btn,
+.emailInput,
+.field {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.btn {
+  width: 160px;
+  background-color: var(--color-forestgreen);
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: var(--padding-xs) 0 var(--padding-2xs);
+  z-index: 1;
+  text-align: center;
+  color: var(--color-white);
+}
+.emailInput,
+.field {
+  max-width: 100%;
+}
+.field {
+  align-self: stretch;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  background-color: var(--color-white);
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 0 0 var(--padding-xl);
+  gap: var(--gap-xl);
+  z-index: 1;
+}
+.emailInput {
+  width: 488px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 var(--padding-smi) 0 0;
+  font-size: var(--font-size-sm);
+  color: var(--color-slategray);
+}
+.phoneCallIcon {
+  height: 20px;
+  width: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 20px;
+}
+.b2,
+.phoneCallIcon {
+  position: relative;
+  z-index: 1;
+}
+.callRequest,
+.callRequestInfo,
+.subscribe {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.callRequestInfo {
+  flex-direction: row;
+  gap: var(--gap-3xs);
+}
+.callRequest,
+.subscribe {
+  flex-direction: column;
+  padding: var(--padding-3xs) 0 0;
+}
+.subscribe {
+  align-self: stretch;
+  background-color: var(--color-dimgray);
+  flex-direction: row;
+  padding: var(--padding-base) var(--padding-116xl);
+  box-sizing: border-box;
+  gap: var(--gap-63xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-greenyellow);
+  font-family: var(--font-ubuntu);
+}
+@media screen and (max-width: 1275px) {
+  .subscribe {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: var(--padding-48xl);
+    padding-right: var(--padding-48xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .subscribe {
+    gap: var(--gap-22xl);
+    padding-left: var(--padding-14xl);
+    padding-right: var(--padding-14xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .field {
+    flex-wrap: wrap;
+    padding-right: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .subscribe {
+    gap: var(--gap-xl);
+  }
+}
